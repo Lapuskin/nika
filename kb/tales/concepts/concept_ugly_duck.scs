@@ -3,6 +3,7 @@ concept_ugly_duckling
 => nrel_main_idtf:
    [Гадкий утенок]
    (* <- lang_ru;; *);
+=> nrel_note: [Гадкий утенок - это сказка о принятии себя и о том, как важно не судить по внешнему виду. Чтобы понять её суть, можно задать вопрос: чему учит эта история? 2.] (* <- lang_ru;; *);
 => nrel_moral: True_beauty_is_inside. (*<- concept_moral;;*);
 => nrel_genre: Folk_tale (*<- concept_genre;;*);
 => nrel_time_period: Indeterminate_time (*<- concept_time_period;;*);

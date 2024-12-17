@@ -1,0 +1,80 @@
+concept_message_about_fairy_tale
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [сообщение о сказке]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [about_fairy_tale];
+<-concept_atomic_message;;
+
+concept_message_about_genre
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [сообщение о жанре]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [about_genre];
+<-concept_atomic_message;;
+
+concept_message_about_happy_ending
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [сообщение о счастливом конце]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [about_happy_ending];
+<-concept_atomic_message;;
+
+concept_message_about_lessons_learned
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [сообщение о полученных уроках]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [about_lessons_learned];
+<-concept_atomic_message;;
+
+concept_message_about_cinderella
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [сообщение о Золушке]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [about_cinderella];
+<-concept_atomic_message;;
+
+concept_message_about_conflict
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [сообщение о конфликте]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [about_conflict];
+<-concept_atomic_message;;
+
+concept_message_about_moral
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [сообщение о морали]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [about_moral];
+<-concept_atomic_message;;
+
+concept_message_about_plot
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [сообщение о сюжете]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [about_plot];
+<-concept_atomic_message;;
+
+concept_message_about_ugly_duckling
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [сообщение о грубой утке]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [about_ugly_duckling];
+<-concept_atomic_message;;

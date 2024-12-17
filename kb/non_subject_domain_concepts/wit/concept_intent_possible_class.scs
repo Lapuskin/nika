@@ -36,4 +36,12 @@ concept_intent_possible_class
 -> concept_message_about_weather;
 -> concept_message_about_find_word_by_first_letter;
 -> concept_message_about_lab_work_deadline;
+-> concept_message_about_cinderella;
+-> concept_message_about_moral;
+-> concept_message_about_fairy_tale;
+-> concept_message_about_plot;
+-> concept_message_about_ugly_duckling;
+-> concept_message_about_happy_ending;
+-> concept_message_about_lessons_learned;
+-> concept_message_about_conflict;
 -> concept_message_about_skill;;

@@ -3,13 +3,14 @@ concept_cinderella
 => nrel_main_idtf:
    [Золушка]
    (* <- lang_ru;; *);
+=> nrel_note: [Золушка - это известная сказка о девушке, которая, несмотря на трудности, находит счастье. Чтобы понять её суть, можно задать вопрос: о чём эта сказка? 2.] (* <- lang_ru;; *);
 => nrel_moral: Good_always_conquers_evil (*<- concept_moral;;*);
 => nrel_genre: Folktale (*<- concept_genre;;*);
 => nrel_time_period: Indeterminate_time (*<- concept_time_period;;*);
 => nrel_character_traits: Kind_patient (*<- concept_character_traits;;*);
 => nrel_plot: Transformation_and_meeting_with_the_prince (*<- concept_plot;;*);
 => nrel_setting: Palace_and_Cinderellas_house (*<- concept_setting;;*);
-=> nrel_conflict: Confrontation_with_the_evil_stepmother (*<- concept_conflict;;*);
+=> nrel_conflict: [Конфронтация с злобной степ-матерью](* <- lang_ru;; *);
 => nrel_resolution: Magic_and_love (*<- concept_resolution;;*);
 => nrel_theme: Power_of_hope_and_faith (*<- concept_theme;;*);
 => nrel_character_role: Main_character_Cinderella (*<- concept_character_role;;*);
