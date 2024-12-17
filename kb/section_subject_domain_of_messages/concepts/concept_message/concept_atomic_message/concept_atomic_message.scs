@@ -64,4 +64,15 @@ concept_atomic_message
 	};
 	{
 		concept_message_no_class
+	};
+	{
+		concept_message_about_cinderella;
+		concept_message_about_moral;
+		concept_message_about_fairy_tale;
+		concept_message_about_plot;
+		concept_message_about_ugly_duckling;
+		concept_message_about_happy_ending;
+		concept_message_about_lessons_learned;
+		concept_message_about_conflict
 	};;
+	

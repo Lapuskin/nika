@@ -2,8 +2,7 @@ concept_moral
 <- concept_fairy_tale;
 => nrel_main_idtf:
    [мораль]
-   (* <- lang_ru;; *);
-=> nrel_note: [это основное сообщение или урок, который автор хочет донести до читателя через сказку. Чтобы понять мораль, можно задать вопрос: какова основная идея этой истории? 2.] (* <- lang_ru;; *);;
+   (* <- lang_ru;; *);;
 
 definition->...
   (*
@@ -22,3 +21,5 @@ definition->...
           concept_fairy_tale
       };;
   *);;
+  
+ concept_moral => nrel_note:[мораль это глубоко](* <- lang_ru;; *);;

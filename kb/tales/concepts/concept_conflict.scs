@@ -2,8 +2,7 @@ concept_conflict
 <- concept_fairy_tale;
 => nrel_main_idtf:
    [конфликт]
-   (* <- lang_ru;; *);
-=> nrel_note: [это столкновение интересов, желаний или целей персонажей в сказке. Чтобы понять его важность, можно задать вопрос: какой конфликт движет сюжетом? 2.] (* <- lang_ru;; *);;
+   (* <- lang_ru;; *);;
 
 definition->...
   (*
@@ -22,3 +21,5 @@ definition->...
           concept_fairy_tale
       };;
   *);;
+  
+concept_conflict => nrel_note: [хороший писюн, бро] (* <- lang_ru;; *);;
