@@ -1,0 +1,23 @@
+concept_time_period
+<- concept_fairy_tale;
+=> nrel_main_idtf:
+   [время действия]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_time_period;;
+   <=nrel_sc_text_translation:...
+   (*
+   ->[Время действия — это временной контекст, в котором разворачивается действие сказки.]
+   (* <- lang_ru;; *);;
+   *);;
+  => nrel_main_idtf:
+          [определение: время действия]
+          (* <- lang_ru;; *);;
+      =>nrel_using_constants:
+      {
+          concept_time_period;
+          concept_fairy_tale
+      };;
+  *);;

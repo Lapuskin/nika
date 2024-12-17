@@ -1,0 +1,25 @@
+concept_theme
+<- concept_fairy_tale;
+=> nrel_main_idtf:
+   [тема]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_theme;;
+   <=nrel_sc_text_translation:...
+   (*
+   ->[Тема — это основная идея или сообщение, которое передается в сказке.]
+   (* <- lang_ru;; *);;
+   *);;
+  => nrel_main_idtf:
+          [определение: тема]
+          (* <- lang_ru;; *);;
+      =>nrel_using_constants:
+      {
+          concept_theme;
+          concept_fairy_tale
+      };;
+  *);;
+
+  

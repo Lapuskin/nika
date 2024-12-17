@@ -1,0 +1,36 @@
+concept_sleeping_beauty
+<- concept_fairy_tale;
+=> nrel_main_idtf:
+   [Спящая красавица]
+   (* <- lang_ru;; *);
+=> nrel_moral: True_love_overcomes_all_obstacles (*<- concept_moral;;*);
+=> nrel_genre: Folktale (*<- concept_genre;;*);
+=> nrel_time_period: Indeterminate_time (*<- concept_time_period;;*);
+=> nrel_character_traits: Kind_naive (*<- concept_character_traits;;*);
+=> nrel_plot: Simple_curse_and_awakening (*<- concept_plot;;*);
+=> nrel_setting: Castle_and_forest (*<- concept_setting;;*);
+=> nrel_conflict: Battle_with_witch (*<- concept_conflict;;*);
+=> nrel_resolution: Kiss_of_true_love (*<- concept_resolution;;*);
+=> nrel_theme: Power_of_love_and_fate (*<- concept_theme;;*);
+=> nrel_character_role: Main_heroine_Sleeping_Beauty (*<- concept_character_role;;*);
+=> nrel_magic_elements: Magical_curse_and_awakening (*<- concept_magic_elements;;*);
+=> nrel_happy_ending: Happy_ending (*<- concept_happy_ending;;*);
+=> nrel_lessons_learned: Fate_can_be_changed_by_love (*<- concept_lessons_learned;;*);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_sleeping_beauty;;
+   <=nrel_sc_text_translation:...
+   (*
+  ->[ Спящая красавица — это сказка о принцессе, которая проклята колдуньей и погружается в глубокий сон, пока её не разбудит поцелуй истинной любви. ]
+   (* <- lang_ru;; *);;
+   *);;
+  => nrel_main_idtf:
+          [определение: Спящая красавица]
+          (* <- lang_ru;; *);;
+      =>nrel_using_constants:
+      {
+          concept_fairy_tale;
+          concept_sleeping_beauty
+      };;
+  *);;

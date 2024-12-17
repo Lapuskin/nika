@@ -1,0 +1,23 @@
+concept_setting
+<- concept_fairy_tale;
+=> nrel_main_idtf:
+   [место действия]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_setting;;
+   <=nrel_sc_text_translation:...
+   (*
+   ->[Место действия — это место, где разворачиваются события сказки.]
+   (* <- lang_ru;; *);;
+   *);;
+  => nrel_main_idtf:
+          [определение: место действия]
+          (* <- lang_ru;; *);;
+      =>nrel_using_constants:
+      {
+          concept_setting;
+          concept_fairy_tale
+      };;
+  *);;

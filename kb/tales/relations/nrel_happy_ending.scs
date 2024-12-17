@@ -1,0 +1,41 @@
+nrel_happy_ending
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+   [счастливый финал]
+   (* <- lang_ru;; *);
+=> nrel_first_domain: concept_happy_ending;
+=> nrel_second_domain: concept_fairy_tale;
+=> nrel_definitional_domain:
+   ...
+   (*
+  	<= nrel_combination: {
+     	concept_happy_ending;
+     	concept_fairy_tale
+  	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+  	=> nrel_main_idtf:
+   	[Опр. (счастливый финал)]
+   	(* <- lang_ru;; *);;
+  	<- definition;;
+  	<= nrel_sc_text_translation:
+    	...
+    	(*
+       	-> rrel_example:
+        	[Счастливый финал - это положительный исход событий в сказке.]
+        	(* <- lang_ru;; *);;
+    	*);;
+  	<= nrel_using_constants: {
+     	concept_happy_ending;
+     	concept_fairy_tale
+  	};;
+   *);;
+

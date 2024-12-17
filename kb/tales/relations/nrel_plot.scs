@@ -1,0 +1,41 @@
+nrel_plot
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+   [сюжет]
+   (* <- lang_ru;; *);
+=> nrel_first_domain: concept_plot;
+=> nrel_second_domain: concept_fairy_tale;
+=> nrel_definitional_domain:
+   ...
+   (*
+  	<= nrel_combination: {
+     	concept_plot;
+     	concept_fairy_tale
+  	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+  	=> nrel_main_idtf:
+   	[Опр. (сюжет)]
+   	(* <- lang_ru;; *);;
+  	<- definition;;
+  	<= nrel_sc_text_translation:
+    	...
+    	(*
+       	-> rrel_example:
+        	[Сюжет - это последовательность событий, которые разворачиваются в сказке.]
+        	(* <- lang_ru;; *);;
+    	*);;
+  	<= nrel_using_constants: {
+     	concept_plot;
+     	concept_fairy_tale
+  	};;
+   *);;
+

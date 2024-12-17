@@ -1,0 +1,36 @@
+concept_red_riding_hood
+<- concept_fairy_tale;
+=> nrel_main_idtf:
+   [Красная Шапочка]
+   (* <- lang_ru;; *);
+=> nrel_moral: Do_not_trust_strangers (*<- concept_moral;;*);
+=> nrel_genre: Folk_tale (*<- concept_genre;;*);
+=> nrel_time_period: Indeterminate_time (*<- concept_time_period;;*);
+=> nrel_character_traits: Innocent_trustful (*<- concept_character_traits;;*);
+=> nrel_plot: Journey_through_the_forest (*<- concept_plot;;*);
+=> nrel_setting: Dark_forest_and_grandmothers_house (*<- concept_setting;;*);
+=> nrel_conflict: Encounter_with_the_wolf (*<- concept_conflict;;*);
+=> nrel_resolution: Rescue_by_the_hunter (*<- concept_resolution;;*);
+=> nrel_theme: Power_of_wit_and_caution (*<- concept_theme;;*);
+=> nrel_character_role: Main_character_Little_Red_Riding_Hood (*<- concept_character_role;;*);
+=> nrel_magic_elements: No_magic_but_there_is_cunning (*<- concept_magic_elements;;*);
+=> nrel_happy_ending: Happy_ending (*<- concept_happy_ending;;*);
+=> nrel_lessons_learned: Be_cautious_and_vigilant (*<- concept_lessons_learned;;*);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_red_riding_hood;;
+   <=nrel_sc_text_translation:...
+   (*
+  ->[ Красная Шапочка — это сказка о девочке, которая отправляется к бабушке через лес и сталкивается с опасным волком, который пытается её обмануть. ]
+   (* <- lang_ru;; *);;
+   *);;
+  => nrel_main_idtf:
+          [определение: Красная Шапочка]
+          (* <- lang_ru;; *);;
+      =>nrel_using_constants:
+      {
+          concept_fairy_tale;
+          concept_red_riding_hood
+      };;
+  *);;

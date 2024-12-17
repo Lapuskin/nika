@@ -1,0 +1,23 @@
+concept_resolution
+<- concept_fairy_tale;
+=> nrel_main_idtf:
+   [разрешение]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_resolution;;
+   <=nrel_sc_text_translation:...
+   (*
+   ->[Разрешение — это способ, которым разрешается конфликт в сказке.]
+   (* <- lang_ru;; *);;
+   *);;
+  => nrel_main_idtf:
+          [определение: разрешение]
+          (* <- lang_ru;; *);;
+      =>nrel_using_constants:
+      {
+          concept_resolution;
+          concept_fairy_tale
+      };;
+  *);;

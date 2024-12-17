@@ -1,0 +1,61 @@
+section_subject_domain_of_fairy_tales
+=> nrel_main_idtf:
+   [Раздел. Предметная область сказок]
+   (* <- lang_ru;; *);
+   [Section. Subject domain of fairy tales]
+   (* <- lang_en;; *);
+<- atomic_section;;
+
+section_subject_domain_of_fairy_tales = [*
+	subject_domain_of_fairy_tales
+<- sc_node_struct;
+	=> nrel_main_idtf:
+  	[Предметная область сказок]
+  	(* <- lang_ru;; *);
+  	[Subject domain of fairy tales]
+  	(* <- lang_en;; *);
+<- subject_domain;
+   -> rrel_maximum_studied_object_class:
+   	concept_fairy_tale;
+  	concept_thousand_and_one_nights;
+  	concept_red_riding_hood;
+  	concept_cinderella;
+  	concept_sleeping_beauty;
+  	concept_ugly_duckling;
+	-> rrel_explored_relation:
+  	nrel_moral;
+  	nrel_genre;
+  	nrel_time_period;
+  	nrel_character_traits;
+  	nrel_plot;
+  	nrel_setting;
+  	nrel_conflict;
+  	nrel_resolution;
+  	nrel_theme;
+  	nrel_character_role;
+  	nrel_magic_elements;
+  	nrel_happy_ending;
+  	nrel_lessons_learned;;
+
+section_subject_domain_of_fairy_tales
+-> rrel_key_sc_element:
+   subject_domain_of_fairy_tales;
+   concept_thousand_and_one_nights;
+   concept_red_riding_hood;
+   concept_cinderella;
+   concept_sleeping_beauty;
+   concept_ugly_duck;
+   nrel_moral;
+   nrel_genre;
+   nrel_time_period;
+   nrel_character_traits;
+   nrel_plot;
+   nrel_setting;
+   nrel_conflict;
+   nrel_resolution;
+   nrel_theme;
+   nrel_character_role;
+   nrel_magic_elements;
+   nrel_happy_ending;
+   nrel_lessons_learned;;
+*];;

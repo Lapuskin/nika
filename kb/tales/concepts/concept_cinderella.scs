@@ -1,0 +1,36 @@
+concept_cinderella
+<- concept_fairy_tale;
+=> nrel_main_idtf:
+   [Золушка]
+   (* <- lang_ru;; *);
+=> nrel_moral: Good_always_conquers_evil (*<- concept_moral;;*);
+=> nrel_genre: Folktale (*<- concept_genre;;*);
+=> nrel_time_period: Indeterminate_time (*<- concept_time_period;;*);
+=> nrel_character_traits: Kind_patient (*<- concept_character_traits;;*);
+=> nrel_plot: Transformation_and_meeting_with_the_prince (*<- concept_plot;;*);
+=> nrel_setting: Palace_and_Cinderellas_house (*<- concept_setting;;*);
+=> nrel_conflict: Confrontation_with_the_evil_stepmother (*<- concept_conflict;;*);
+=> nrel_resolution: Magic_and_love (*<- concept_resolution;;*);
+=> nrel_theme: Power_of_hope_and_faith (*<- concept_theme;;*);
+=> nrel_character_role: Main_character_Cinderella (*<- concept_character_role;;*);
+=> nrel_magic_elements: Fairy_godmother_and_glass_slippers (*<- concept_magic_elements;;*);
+=> nrel_happy_ending: Happy_ending (*<- concept_happy_ending;;*);
+=> nrel_lessons_learned: Never_lose_hope (*<- concept_lessons_learned;;*);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_cinderella;;
+   <=nrel_sc_text_translation:...
+   (*
+  ->[ Золушка — это сказка о бедной девушке, которой помогает волшебная фея, чтобы она смогла посетить бал и встретить своего принца. ]
+   (* <- lang_ru;; *);;
+   *);;
+  => nrel_main_idtf:
+          [определение: Золушка]
+          (* <- lang_ru;; *);;
+      =>nrel_using_constants:
+      {
+          concept_fairy_tale;
+          concept_cinderella
+      };;
+  *);;

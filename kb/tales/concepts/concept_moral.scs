@@ -1,0 +1,23 @@
+concept_moral
+<- concept_fairy_tale;
+=> nrel_main_idtf:
+   [мораль]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_moral;;
+   <=nrel_sc_text_translation:...
+   (*
+   ->[Мораль — это урок или истина, которую передает сказка.]
+   (* <- lang_ru;; *);;
+   *);;
+  => nrel_main_idtf:
+          [определение: мораль]
+          (* <- lang_ru;; *);;
+      =>nrel_using_constants:
+      {
+          concept_moral;
+          concept_fairy_tale
+      };;
+  *);;

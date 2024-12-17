@@ -1,0 +1,36 @@
+concept_thousand_and_one_nights
+<- concept_fairy_tale;
+=> nrel_main_idtf:
+   [Тысяча и одна ночь]
+   (* <- lang_ru;; *);
+=> nrel_moral: Courage_and_wisdom_overcome_difficulties. (*<- concept_moral;;*);
+=> nrel_genre: Folktale (*<- concept_genre;;*);
+=> nrel_time_period: Ancient_times (*<- concept_time_period;;*);
+=> nrel_character_traits: Smart_resourceful (*<- concept_character_traits;;*);
+=> nrel_plot: Adventures_and_trials (*<- concept_plot;;*);
+=> nrel_setting: Eastern_countries (*<- concept_setting;;*);
+=> nrel_conflict: Struggle_against_injustice (*<- concept_conflict;;*);
+=> nrel_resolution: Use_of_reason_and_cunning (*<- concept_resolution;;*);
+=> nrel_theme: Power_of_storytelling (*<- concept_theme;;*);
+=> nrel_character_role: Main_heroine_Scheherazade (*<- concept_character_role;;*);
+=> nrel_magic_elements: Wonders_and_spells (*<- concept_magic_elements;;*);
+=> nrel_happy_ending: Happy_ending (*<- concept_happy_ending;;*);
+=> nrel_lessons_learned: Importance_of_wisdom_and_patience (*<- concept_lessons_learned;;*);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_thousand_and_one_nights;;
+   <=nrel_sc_text_translation:...
+   (*
+  ->[ Тысяча и одна ночь — это сборник восточных сказок, в котором главная героиня, Шахерезада, рассказывает истории, чтобы спасти свою жизнь и завоевать любовь царя. ]
+   (* <- lang_ru;; *);;
+   *);;
+  => nrel_main_idtf:
+          [определение: Тысяча и одна ночь]
+          (* <- lang_ru;; *);;
+      =>nrel_using_constants:
+      {
+          concept_fairy_tale;
+          concept_thousand_and_one_nights
+      };;
+  *);;

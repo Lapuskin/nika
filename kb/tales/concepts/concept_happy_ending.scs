@@ -1,0 +1,23 @@
+concept_happy_ending
+<- concept_fairy_tale;
+=> nrel_main_idtf:
+   [счастливый финал]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_happy_ending;;
+   <=nrel_sc_text_translation:...
+   (*
+   ->[Счастливый финал — это положительный исход событий в сказке.]
+   (* <- lang_ru;; *);;
+   *);;
+  => nrel_main_idtf:
+          [определение: счастливый финал]
+          (* <- lang_ru;; *);;
+      =>nrel_using_constants:
+      {
+          concept_happy_ending;
+          concept_fairy_tale
+      };;
+  *);;

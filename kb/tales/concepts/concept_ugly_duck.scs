@@ -1,0 +1,36 @@
+concept_ugly_duckling
+<- concept_fairy_tale;
+=> nrel_main_idtf:
+   [Гадкий утенок]
+   (* <- lang_ru;; *);
+=> nrel_moral: True_beauty_is_inside. (*<- concept_moral;;*);
+=> nrel_genre: Folk_tale (*<- concept_genre;;*);
+=> nrel_time_period: Indeterminate_time (*<- concept_time_period;;*);
+=> nrel_character_traits: Patient_sensitive (*<- concept_character_traits;;*);
+=> nrel_plot: Journey_to_self_acceptance (*<- concept_plot;;*);
+=> nrel_setting: Pond_and_surroundings (*<- concept_setting;;*);
+=> nrel_conflict: Isolation_and_mockery_from_others (*<- concept_conflict;;*);
+=> nrel_resolution: Acceptance_and_transformation_into_a_swans (*<- concept_resolution;;*);
+=> nrel_theme: Search_for_identity_and_acceptance (*<- concept_theme;;*);
+=> nrel_character_role: Main_character_ugly_duckling (*<- concept_character_role;;*);
+=> nrel_magic_elements: No_magic_but_there_is_transformation (*<- concept_magic_elements;;*);
+=> nrel_happy_ending: Happy_ending (*<- concept_happy_ending;;*);
+=> nrel_lessons_learned: Do_not_judge_by_appearance (*<- concept_lessons_learned;;*);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_ugly_duckling;;
+   <=nrel_sc_text_translation:...
+   (*
+  ->[ Гадкий утенок — это сказка о молодом утенке, который испытывает трудности из-за своей внешности, но в конце концов обнаруживает свою истинную красоту как лебедь. ]
+   (* <- lang_ru;; *);;
+   *);;
+  => nrel_main_idtf:
+          [определение: Гадкий утенок]
+          (* <- lang_ru;; *);;
+      =>nrel_using_constants:
+      {
+          concept_fairy_tale;
+          concept_ugly_duckling
+      };;
+  *);;
